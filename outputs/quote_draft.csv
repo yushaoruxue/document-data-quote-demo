@@ -1,0 +1,4 @@
+line_id,item_code,requested_description,approved_description,quantity,unit,unit_price_usd,line_total_usd,status
+1,A-100,Industrial Filter,Industrial Filter,4,pcs,12.50,50.00,QUOTED_FROM_APPROVED_CATALOGUE
+2,B-200,PTFE Hose 2m,PTFE Hose 2m,2,pcs,39.00,78.00,QUOTED_FROM_APPROVED_CATALOGUE
+3,C-300,Stainless Clamp,Stainless Clamp,10,pcs,4.80,48.00,QUOTED_FROM_APPROVED_CATALOGUE
