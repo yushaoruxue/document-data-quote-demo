@@ -1,0 +1,4 @@
+line_id,item_code,description,quantity,unit,review_reason,decision
+4,X-999,Unknown Connector,3,pcs,UNKNOWN_CODE,HUMAN_REVIEW_REQUIRED
+5,,Pressure Gauge 0-10 bar,2,pcs,MISSING_CODE,HUMAN_REVIEW_REQUIRED
+6,D-400,Pressure Gauge 0-10bar,0,pcs,INVALID_QUANTITY,HUMAN_REVIEW_REQUIRED
