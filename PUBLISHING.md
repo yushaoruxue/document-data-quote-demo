@@ -1,36 +1,43 @@
-# Publication Gate
+# Publication Status
 
-## Intended public surface
+**PUBLIC / BUYER-SENDABLE**
 
-Standalone repository name:
+Public entry:
 
-`document-data-quote-demo`
+https://github.com/yushaoruxue/document-data-quote-demo
 
-The proof package in this directory is self-contained and can be moved to the root of that repository without exposing the private commercial repository.
+## Verified public surface
 
-## Current publication status
+The following buyer-facing materials are present on the public `main` branch:
 
-**CONTENT COMPLETE / PUBLIC URL NOT YET CREATED**
+- root README;
+- one-minute SVG overview;
+- synthetic RFQ input;
+- approved catalogue / price list;
+- generated quote draft;
+- human-review queue;
+- acceptance evidence;
+- provenance and limitations;
+- reproducible script and verification checks.
 
-The currently available GitHub connection can write files to existing repositories but does not expose repository-creation or repository-visibility mutation actions. All currently connected user repositories are private.
+## Evidence boundary
 
-Therefore:
+This remains:
 
-- do not publish the containing `freelance-business-system` repository;
-- do not use its private URL in a buyer reply;
-- do not label the proof as publicly available until an unauthenticated browser can open it.
+> **Synthetic / internal proof — not a client case.**
 
-## Final public check
+Public availability does not upgrade the evidence into production-client history.
 
-Before recording a public URL:
+Do not claim from this proof:
 
-1. repository is public;
-2. README renders at the root;
-3. `assets/overview.svg` renders;
-4. sample and output links work;
-5. no secret/private path or internal repository URL appears;
-6. clone/download works without authentication;
-7. the synthetic/internal label is visible above the fold;
-8. the public URL is copied into `PORTFOLIO/public-proof-registry.md`.
+- production PDF/OCR extraction;
+- production n8n / Make ownership;
+- ERP integration;
+- automatic email delivery;
+- enterprise-scale or regulated-system responsibility.
 
-Only after these checks should the proof status become `PUBLIC / BUYER-SENDABLE`.
+## Buyer-use rule
+
+Use this link when the buyer's trust question is about deterministic data handling, approved price-list matching, exception isolation, Excel/CSV output, or human-review workflow design.
+
+Do not send it merely because a proposal needs “a portfolio link”; send the smallest proof that directly matches the requested responsibility.
